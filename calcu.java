@@ -14,10 +14,11 @@ public class calcu {
 
         // Perform arithmetic operations
         double sum = firstNumber + secondNumber;
+        double difference = firstNumber - secondNumber;
 
         // Display the results
         System.out.println("Sum: " + sum);
-
+        System.out.println("Difference: " + difference);
         // Close the scanner
         scanner.close();
     }
