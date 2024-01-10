@@ -17,12 +17,16 @@ public class calcu {
         double difference = firstNumber - secondNumber;
         double product = firstNumber * secondNumber;
         double quotient = firstNumber / secondNumber;
+        double modulo = firstNumber % secondNumber;
+
 
         // Display the results
         System.out.println("Sum: " + sum);
         System.out.println("Difference: " + difference);
         System.out.println("Product: " + product);
         System.out.println("Quotient: " + quotient);
+        System.out.println("Modulo: " + modulo);
+
         // Close the scanner
         scanner.close();
     }
