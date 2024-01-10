@@ -5,9 +5,9 @@ public class calcu {
         Scanner scanner = new Scanner(System.in);
 
         // Get user input for the first number
+        System.out.println("Calculator by Colleth Cyril Reyes");
         System.out.print("Enter the first number: ");
         double firstNumber = scanner.nextDouble();
-
         // Get user input for the second number
         System.out.print("Enter the second number: ");
         double secondNumber = scanner.nextDouble();
